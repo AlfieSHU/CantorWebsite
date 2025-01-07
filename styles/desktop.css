@@ -1,0 +1,271 @@
+:root {
+	--logo-color-dark: #4E3E17;
+	--logo-color-light: #E6AB3C;
+	
+	--background-color: #1E1F20;
+	--background-color-secondary: #2E2F30;
+	
+	--text-color: white;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+header {
+	background-color: var(--logo-color-dark);
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 1rem;
+}
+
+main {
+	padding: 1rem;
+	margin-bottom: 3.25rem;
+}
+
+main a {
+	text-decoration: none;
+	color: var(--logo-color-light);
+}
+
+footer {
+	background-color: var(--logo-color-dark);
+	color: var(--logo-color-light);
+	text-align: center;
+	/* padding: 0.25rem; */
+
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+td {
+	padding: 0 1rem 1rem 1rem;
+}
+
+h1.page-title {
+	padding-left: 0.5rem;
+}
+
+h2.subheading {
+	padding-left: 0.5rem;
+	font-size: 1.25rem;
+}
+
+p.compact {
+	line-height: 1;
+}
+
+p#student-facilities-text {
+	padding: 20px 0 0 20px;
+	font-size: 20px;
+}
+
+#get-in-touch h2 {
+	padding: 15px 0 5px 0;
+}
+
+#get-in-touch p {
+	padding: 0 0 10px 10px;
+}
+
+.view-courses-button {
+	background-color: var(--logo-color-light);
+	border: none;
+	border-radius: 25px;
+	padding: 0.5rem 1rem;
+	font-size: 1.25rem;
+	cursor: pointer;
+}
+
+#modal-close-button {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: var(--logo-color-light);
+	border: none;
+	border-radius: 20px 5px 20px 5px;
+	padding: 0.5rem 1rem;
+	font-size: 1.25rem;
+	cursor: pointer;
+}
+
+div#modal-content {
+	position: fixed;
+	top: 5%;
+	left: 5%;
+	transform: translate(-2.5%, 15%);
+	background-color: var(--background-color);
+	border-radius: 20px;
+	padding: 1rem;
+}
+
+div#modal-container {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logo img {
+	width: 75px;
+	height: 75px;
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	/* margin-left: 1rem; */
+	margin-left: auto;
+}
+
+.nav-item {
+	margin: 0 1rem;
+}
+
+.nav-item a {
+	text-decoration: none;
+	color: var(--logo-color-light);
+	font-size: 1.2rem;
+	transition: color 0.3s;
+}
+
+.nav-item a:hover {
+	color: var(--text-color);
+}
+
+.nav-item.active a {
+	color: var(--text-color);
+}
+
+.container {
+	display:flex;
+	background: var(--background-color-secondary);
+	margin-left: -1rem;
+	width: calc(100% - 1rem);
+	padding: 2rem 1.5rem 1.5rem 1.5rem;
+	margin-top: 1rem;
+}
+
+.container-text {
+	line-height: 2;
+}
+
+.container-text.left {
+	padding-right: 10%;
+}
+
+.container-text h2 {
+	margin-bottom: -1.25rem;
+}
+
+.container-text ul {
+	font-size: 1.2rem;
+}
+
+.container-text ol {
+	line-height: 2;
+}
+
+h2.container-heading {
+	margin-bottom: 0;
+	font-size: 1.75rem;
+}
+
+.container-image {
+	width:700px;
+}
+
+.container-image.left {
+	margin-left: 10rem;
+	margin-right: 100px;
+}
+
+.container-image.right {
+	margin-left: 10%;
+	padding: 4rem 1.5rem 0rem 0rem;
+}
+
+.container-image img {
+	border-radius: 20px;
+	width: 80%;
+}
+
+.container-image.left img {	
+	margin-left: 20%;
+}
+
+#homepage-text-right {
+	margin-left: 45%;
+}
+
+#courses-text-right {
+	margin-left: 20%;
+}
+
+#design-courses {
+	margin-left: 20%;
+}
+
+#facilities-text-right {
+	margin-left: 15%;
+}
+
+#facilities-image-right {
+	margin-top: -1rem;
+}
+
+#facilities-image-left {
+	margin-left: 8%;
+}
+
+#facilities-text-left {
+	width:100%;
+	margin-top:30px
+}
+
+#resources-text {
+	margin-left: 20%;
+}
+
+#staff-text {
+	margin-right: -10%;
+}
+
+#student-text-left {
+	margin-right: 20px;
+}
+
+#student-text-right {
+	margin-left:12.5%;
+}
+
+#student-text-right2 {
+	margin-right:17.5%;
+}
+
+#student-image-right {
+	margin-left: -10%;
+}
+
+#business-text-right {
+	margin-left: 17%;
+}
+
+#business-image-right {
+	margin-left: 5%;
+}
